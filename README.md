@@ -11,11 +11,11 @@
 ## 📷 Previews
 
 <p align="center">
-<img src="previews/preview1.png" alt="drawing" width="270px" />
-<img src="previews/preview2.png" alt="drawing" width="270px" />
-<img src="previews/preview3.png" alt="drawing" width="270px" /></br> </br>
-<img src="previews/preview4.png" alt="drawing" width="270px" />
-<img src="previews/preview5.png" alt="drawing" width="270px" />
+<img src="previews/preview1.jpeg" alt="drawing" width="270px" />
+<img src="previews/preview2.jpeg" alt="drawing" width="270px" />
+<img src="previews/preview3.jpeg" alt="drawing" width="270px" /></br> </br>
+<img src="previews/preview4.jpeg" alt="drawing" width="270px" />
+<img src="previews/preview5.jpeg" alt="drawing" width="270px" />
 </p>
 
 ## 🛠 Tech Stack & Open Source Libraries
