@@ -1,4 +1,3 @@
-![cover](previews/baner.jpg)
 
 <p align="center">
   <a href="https://android-arsenal.com/api?level=32"><img alt="API" src="https://img.shields.io/badge/API-32%2B-brightgreen.svg?style=flat"/></a>
