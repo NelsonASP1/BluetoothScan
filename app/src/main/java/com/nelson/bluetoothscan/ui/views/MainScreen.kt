@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.dp
 import com.nelson.bluetoothscan.ui.BluetoothState
 
 @Composable
-fun ChatScreen(
+fun MainScreen(
     state: BluetoothState,
     onDisconnect: () -> Unit,
     onSendMessage: (String) -> Unit

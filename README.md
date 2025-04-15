@@ -4,7 +4,7 @@
 </p>
 
 ## 📲 APK
-[APK](https://drive.google.com/file/d/1yv3VvyhMcneVwzV1nRA4z0Zz4u4-ijZd/view?usp=sharing).
+[APK](https://drive.google.com/file/d/1OyfXCCUU-4TumMyk5tFoCJltpmg4Van7/view?usp=sharing).
 
 
 ## 📷 Previews

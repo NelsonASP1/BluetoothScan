@@ -1,13 +1,12 @@
 package com.nelson.bluetoothscan.ui
 
-import ChatScreen
+import MainScreen
 import android.Manifest
 import android.bluetooth.BluetoothAdapter
 import android.bluetooth.BluetoothManager
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -16,7 +15,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.LaunchedEffect
@@ -113,7 +111,7 @@ class MainActivity : ComponentActivity() {
                             }
                         }
                         state.isConnected -> {
-                            ChatScreen(
+                            MainScreen(
                                 state = state,
                                 onDisconnect = viewModel::disconnectFromDevice,
                                 onSendMessage = viewModel::sendMessage
