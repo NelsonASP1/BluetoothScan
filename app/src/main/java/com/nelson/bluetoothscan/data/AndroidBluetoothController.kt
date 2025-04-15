@@ -38,7 +38,6 @@ import kotlinx.coroutines.launch
 import java.io.IOException
 import java.util.UUID
 
-
 @SuppressLint("MissingPermission")
 class AndroidBluetoothController(
     private val context: Context
@@ -126,11 +125,6 @@ class AndroidBluetoothController(
 
         _scannedDevices.value = emptyList()
 
-        // Desregistrar el receptor si está registrado
-        if (isReceiverRegistered) {
-            context.unregisterReceiver(foundDeviceReceiver)
-            isReceiverRegistered = false
-        }
     }
 
     override fun startBluetoothServer(): Flow<ConnectionResult> {
@@ -140,7 +134,7 @@ class AndroidBluetoothController(
             }
 
             currentServerSocket = bluetoothAdapter?.listenUsingRfcommWithServiceRecord(
-                "chat_service",
+                "service",
                 UUID.fromString(SERVICE_UUID)
             )
 
