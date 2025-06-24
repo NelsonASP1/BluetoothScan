@@ -3,9 +3,9 @@
   <a href="https://android-arsenal.com/api?level=32"><img alt="API" src="https://img.shields.io/badge/API-32%2B-brightgreen.svg?style=flat"/></a>
 </p>
 
-## 📲 APK
-[APK](https://drive.google.com/file/d/1OyfXCCUU-4TumMyk5tFoCJltpmg4Van7/view?usp=sharing).
+# 📡 NearbySync – Bluetooth Data Exchange App
 
+**NearbySync** is an Android application that scans for nearby Bluetooth devices and automatically pairs with others running the same app to securely exchange data. Designed for local peer-to-peer interactions without relying on internet connectivity, this project leverages modern Android technologies and a clean MVVM architecture.
 
 ## 📷 Previews
 
